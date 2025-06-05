@@ -1,0 +1,42 @@
+Interview Questions - Browser Extensions Security
+
+1. How can browser extensions pose security risks?
+Browser extensions can pose security risks if they have access to sensitive data like browsing history, credentials, or clipboard content. Malicious extensions may inject ads, track user activity, or redirect traffic to phishing websites. Vulnerable extensions can also be exploited to gain unauthorized access.
+
+2. What permissions should raise suspicion?
+Permissions that raise red flags include:
+- "Read and change all your data on the websites you visit"
+- "Access your tabs and browsing activity"
+- "Manage your downloads"
+- "Capture content of your screen"
+These permissions can allow an extension to monitor or manipulate user behavior.
+
+3. How to safely install browser extensions?
+- Only install from official browser web stores (e.g., Chrome Web Store).
+- Check developer reputation and reviews.
+- Review permissions before installing.
+- Avoid extensions with very few users or poor ratings.
+- Read the privacy policy if available.
+
+4. What is extension sandboxing?
+Extension sandboxing isolates the extension’s code execution from the browser and operating system. This limits what an extension can do and prevents it from affecting the browser or other extensions directly. Sandboxing helps mitigate the impact of vulnerabilities within the extension.
+
+5. Can extensions steal passwords?
+Yes, malicious extensions with broad permissions can potentially log keystrokes or read the content of web pages, including passwords. Extensions with access to login pages or browser storage can also extract saved credentials if not properly sandboxed.
+
+6. How to update extensions securely?
+- Enable automatic updates in the browser settings.
+- Avoid installing extensions from third-party sources, as these might not receive updates.
+- Regularly check for updates in the extensions page (e.g., chrome://extensions).
+- Reinstall from the official source if an extension behaves suspiciously.
+
+7. Difference between extensions and plugins?
+- Extensions are JavaScript-based tools that enhance browser functionality.
+- Plugins (now mostly deprecated) were third-party software components (e.g., Flash, Java) used to display special content in browsers.
+Modern browsers have phased out plugins in favor of HTML5 and secure extensions.
+
+8. How to report malicious extensions?
+- Use the “Report abuse” option on the extension’s store page.
+- Provide detailed information on suspicious behavior.
+- Contact the browser’s support team (e.g., Google or Mozilla).
+- Warn others by posting verified issues on forums like Reddit or StackOverflow.

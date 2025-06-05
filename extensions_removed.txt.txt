@@ -1,0 +1,11 @@
+1. Text Blaze
+   - Reason: No longer used; had access to clipboard and tabs.
+
+2. ZenMate VPN
+   - Reason: VPN with unclear privacy practices and logging.
+
+3. Wordtune
+   - Reason: Unused extension with permission to access all data.
+
+4. Temp Mail
+   - Reason: Not used frequently; excessive permissions for a temp tool.
